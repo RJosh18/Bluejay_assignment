@@ -25,7 +25,6 @@ const employees = xlData.filter((employee) => {
   return false;
 });
 
-// Print the name and position of the employees who meet the criteria to the console.
 employees.forEach((employee) => {
   console.log(
     `Name: ${employee["Employee Name"]}, Position: ${employee["Position ID"]}`
